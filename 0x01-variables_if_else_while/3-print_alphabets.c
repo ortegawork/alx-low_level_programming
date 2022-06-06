@@ -17,23 +17,14 @@ int main(void)
 
 
 				for (alpha = 'a' ; alpha <= 'z' ; alpha++)
-
-						{
-
-									putchar(alpha);
-
-										}
-
-					for (bet = 'A' ; bet <= 'Z' ; bet++)
-
-							{
-
-										putchar(bet);
-
-											}
-
-						putchar('\n');
-
-							return (0);
+				{
+					putchar(alpha);
+				}
+				for (bet = 'A' ; bet <= 'Z' ; bet++)
+				{
+					putchar(bet);
+				}
+				putchar('\n');
+				return (0);
 
 }
