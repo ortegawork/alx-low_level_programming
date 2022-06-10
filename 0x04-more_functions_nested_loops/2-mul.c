@@ -1,4 +1,4 @@
-nclude "holberton.h"
+#include "holberton.h"
 
 /**
  *   *   * mul - multiplies two integers
@@ -12,11 +12,9 @@ int mul(int a, int b)
 {
 
 		int result;
-
-
-
-			result = a * b;
-
-				return (result);
+		
+		result = a * b;	
+		
+		return (result);
 
 }
