@@ -1,15 +1,9 @@
 #include "main.h"
 
 /**
- *
- *  * print_diagonal -draws a diagonal line on the terminal
- *
- *   * @n: the number of times that the special character must be print
- *
- *    *
- *
- *     * Return: a diagonal
- *
+ *   *   * print_diagonal -draws a diagonal line on the terminal
+ *    *   * @n: the number of times that the special character must be print
+ *     *   * Return: a diagonal
  *      **/
 
 void print_diagonal(int n)
