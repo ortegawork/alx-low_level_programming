@@ -19,7 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 
 		unsigned int i = 0;
 
-			int j = 0;
+		int j = 0;
 
 
 
