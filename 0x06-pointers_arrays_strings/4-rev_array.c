@@ -3,36 +3,43 @@
 
 
 /**
- *   *   * _strcmp - function that compares two strings.
- *    *   * @s1: pointer to char source 1
- *     *   * @s2: pointer to char source 2
- *      *   * Return: int
- *       **/
+ *  *reverse_array - function that reverses the content of an array of integers.
+ *   * @a: pointer of array int
+ *    * @n: the number of elements to swap
+ *     * Return: nothing
+ *     * */
 
 
-int _strcmp(char *s1, char *s2)
+
+void reverse_array(int *a, int n)
 
 {
 
 		int i = 0;
 
-		int aux;
+		int j = 0;
+
+		int *init, *final;
+
+		int aux = 0;
 
 
 
-				while (*(s1 + i) != '\0')
-				{
-					if (*(s1 + i) > *(s2 + i))
-					{
-						aux = *(s1 + i) - *(s2 + i);
-						return (aux);
-					}
-					else if (*(s1 + i) < *(s2 + i))
-					{
-						aux = *(s1 + i) - *(s2 + i);
-						return (aux);
-					}
-					i += 1;
-				}
-				return (0);
+		init = a;
+		
+		final = a;
+		
+		n -= 1;
+		
+		
+		while (i < n)
+			i += 1;
+		while (j <= i)
+		{
+			aux = *(init + j);
+			*(init + j) = *(final + i);
+			*(final + i) = aux;
+			j++;
+			i--;
+		}
 }
